@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var fs = require("fs");
-var input = fs.readFileSync("input9", { encoding: "ascii" }).split("\n");
+var input = fs.readFileSync("input9test", { encoding: "ascii" }).split("\r\n");
 input.pop();
 const nums = input.map((line) => line.split('').map((s) => Number(s)));
 let risk = 0;
